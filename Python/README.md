@@ -11,7 +11,8 @@ El menú interactivo fue diseñado para proporcionar una interfaz de usuario cla
 
 Se consideró esencial para facilitar la operación del sistema tanto para administradores como para usuarios, evitando la necesidad de recordar comandos complejos y guiando al usuario paso a paso.
 
-**¿Cómo se llevó a cabo su implementación?**  
+**¿Cómo se llevó a cabo su implementación?** 
+ 
 - Se desarrolló la función `menu()` que contiene un bucle principal
 - Se estructuró con seis opciones numeradas:
   1. Visualización del mapa de parqueo
@@ -48,12 +49,15 @@ Proporciona transparencia en las operaciones y permite resolver discrepancias, a
 ## 3. Sistema de Tarifas
 
 **¿Por qué se consideró necesario?** 
+
 Establecer costos distintos según el tipo de vehículo que va a hacer uso del parqueadero.
 
 **¿Para qué se implementó?**   
+
 Reconoce que vehículos ocupan los distintos espacios que hay en el parqueadero, por lo que el cobro debe reflejar estas diferencias.
 
-**¿Cómo se llevó a cabo su implementación?**  
+**¿Cómo se llevó a cabo su implementación?** 
+ 
 - Diccionario `tarifas` con valores por minuto para:
   - Carros (mayor tarifa)
   - Motos (tarifa media)
@@ -66,12 +70,15 @@ Reconoce que vehículos ocupan los distintos espacios que hay en el parqueadero,
 ## 4. Búsqueda de Vehículos por Placa
 
 **¿Por qué se consideró necesario?** 
+
 Permitir la localización rápida de cualquier vehículo actualmente estacionado en el parqueadero.
 
 **¿Para qué se implementó?**   
+
 Agiliza la gestión diaria y facilita la verificación de ciertos vehículos en especifico cuando es requerido por usuarios o el personal.
 
-**¿Cómo se llevó a cabo su implementación?**   
+**¿Cómo se llevó a cabo su implementación?** 
+  
 - Función `buscar_vehiculo()` que:
   - Solicita la placa a buscar
   - Consulta el diccionario `vehiculos_activos`

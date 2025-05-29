@@ -4,9 +4,11 @@
 ## 1. Menú Interactivo
 
 **¿Para qué se implementó?**  
+
 El menú interactivo fue diseñado para proporcionar una interfaz de usuario clara y organizada que permita acceder a todas las funcionalidades del sistema de parqueadero de manera intuitiva.
 
 **¿Por qué se consideró necesario?** 
+
 Se consideró esencial para facilitar la operación del sistema tanto para administradores como para usuarios, evitando la necesidad de recordar comandos complejos y guiando al usuario paso a paso.
 
 **¿Cómo se llevó a cabo su implementación?**  

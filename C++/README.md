@@ -1,6 +1,6 @@
 # Pokefutbol  
 
-### 1. **Temática de Fútbol y Posiciones**  
+## 1. **Temática de Fútbol y Posiciones**  
 - **¿Para qué se implementó?**  
 
   Para adaptar el concepto de combate Pokémon a un entorno de fútbol, reemplazando las criaturas por futbolistas y los tipos elementales por posiciones en el campo.  
@@ -11,7 +11,7 @@
 
   Se definieron cuatro posiciones clave: **portero, defensa, mediocampista y delantero**, cada una con habilidades y roles distintos, similar a los tipos elementales en Pokémon.  
 
-### 2. **Selección de Jugadores con Menú Interactivo**  
+## 2. **Selección de Jugadores con Menú Interactivo**  
 
 - **¿Para qué se implementó?**  
 
@@ -24,7 +24,7 @@
   - Listas de jugadores por posición (ej: `porteros[10] = {"Alisson Becker", "David Ospina", ...}`).  
   - Funciones `mostrarListaJugadores()` y `elegirJugador()` para selección numérica con validación de entrada.  
 
-### 3. **Ataques Únicos por Posición** 
+## 3. **Ataques Únicos por Posición** 
  
 - **¿Para qué se implementó?**  
 
@@ -36,7 +36,7 @@
 
   Se diseñaron conjuntos de ataques temáticos para cada posición (ej: "Atajada Rápida" para porteros, "Disparo Fuerte" para delanteros) y se asignaron aleatoriamente cuatro ataques por jugador.  
 
-### 4. **Sistema de Curación Limitada**  
+## 4. **Sistema de Curación Limitada**  
 
 - **¿Para qué se implementó?**  
 
@@ -48,7 +48,7 @@
 
   Cada jugador tiene un contador de curaciones (`curacionesUsadas`) que permite solo dos usos por jugador, recuperando 30 puntos de vida cada vez.  
 
-### 5. **Cambio de Jugador**  
+## 5. **Cambio de Jugador**  
 
 - **¿Para qué se implementó?**  
 

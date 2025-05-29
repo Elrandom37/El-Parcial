@@ -26,12 +26,15 @@ Se consideró esencial para facilitar la operación del sistema tanto para admin
 ## 2. Historial de Vehículos
 
 **¿Por qué se consideró necesario?** 
+
 Se considera necesario para mantener un registro completo de todos los movimientos vehiculares para consultas posteriores y generación de reportes.
 
 **¿Para qué se implementó?** 
+
 Proporciona transparencia en las operaciones y permite resolver discrepancias, además de ofrecer datos para análisis de uso del parqueadero.
 
-**¿Cómo se llevó a cabo su implementación?**  
+**¿Cómo se llevó a cabo su implementación?**
+  
 - Estructura de datos `historial` como lista global
 - Cada registro contiene:
   - Placa del vehículo
